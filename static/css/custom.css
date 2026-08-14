@@ -1,3 +1,7 @@
 .footer__copyright-credits {
   display: none !important;
 }
+
+.logo {
+    padding: 5px;
+}
