@@ -9,3 +9,35 @@
 .img {
     margin-bottom: 1em;
 }
+
+.widget-contact .widget__content {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.widget-contact__section strong {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.widget-contact__hours-list {
+  margin: 0.25rem 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.widget-contact__hours-item + .widget-contact__hours-item {
+  margin-top: 0.35rem;
+}
+
+.widget-contact__meta {
+  display: grid;
+  gap: 0.9rem;
+}
+
+@media (min-width: 640px) {
+  .widget-contact__meta {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.8rem;
+  }
+}
