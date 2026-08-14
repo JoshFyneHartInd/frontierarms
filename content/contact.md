@@ -8,6 +8,7 @@ menu:
     weight: 3
 sidebar: "right"
 ---
+![Store Front](/img/store-front.jpg)
 **Store Hours:** (MST)  
 Mon - Fri: 10:00am - 6:00pm  
 Sat: 10:00am - 5:00pm
