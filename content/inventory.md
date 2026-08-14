@@ -8,7 +8,7 @@ menu:
     weight: 2
 ---
 ## New & Used Firearms, Ammunition & Accessories
-![Firearm Inventory](/img/inventory.jpg)
+![Firearm Inventory](/img/inventory-v2.jpg)
 Frontier Arms & Supply stocks a wide selection of new and used firearms, ammunition, optics, magazines, safes, and shooting accessories for hunters, sport shooters, collectors, and first-time firearm owners. While we don't maintain a live online inventory, our showroom is constantly changing with new arrivals and used firearms.
 
 If you're looking for a specific firearm or accessory, give us a call or stop by the store. If we don't have it in stock, we'll do our best to order it for you.
