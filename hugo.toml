@@ -19,9 +19,9 @@ theme = 'roadster'
   image = "img/fa-logo.png"
 
 [Params.sidebar]
-  home = false   # Configure layout for home page
-  list = false   # Configure layout for list pages
-  single = false # Configure layout for single pages
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
   widgets = ["social", "links"]
 
 [Params.widgets.social]
