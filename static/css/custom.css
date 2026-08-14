@@ -12,7 +12,7 @@
 
 .widget-contact .widget__content {
   display: grid;
-  gap: 0.9rem;
+  gap: 0.5rem;
 }
 
 .widget-contact__section strong {
@@ -32,12 +32,12 @@
 
 .widget-contact__meta {
   display: grid;
-  gap: 0.9rem;
+  gap: 0.5rem;
 }
 
 @media (min-width: 640px) {
   .widget-contact__meta {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.8rem;
+    gap: 0.5rem;
   }
 }
