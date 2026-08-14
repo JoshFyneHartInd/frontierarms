@@ -35,8 +35,18 @@
   gap: 0.5rem;
 }
 
+.widget-contact__section--phone {
+  white-space: nowrap;
+}
+
+.widget-contact__section--email .widget__link {
+  overflow-wrap: anywhere;
+}
+
 @media (min-width: 640px) {
   .widget-contact__meta {
+    grid-template-columns: max-content minmax(0, 1fr);
+    align-items: start;
     gap: 0.5rem;
   }
 }
