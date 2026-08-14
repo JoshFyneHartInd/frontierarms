@@ -20,9 +20,12 @@ img {
 }
 
 .widget-contact__hours-list {
-  margin: 0.25rem 0 0;
   padding-left: 0;
   list-style: none;
+}
+
+.widget-contact__hours-item {
+    padding: 0px;
 }
 
 .widget-contact__meta {
