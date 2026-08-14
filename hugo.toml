@@ -16,6 +16,7 @@ theme = 'roadster'
 [Params.logo]
   subtitle = "New & Used Firearms, Ammunition & Accessories"
   title = "Frontier Arms & Supply"
+  image = "img/fa-logo.png"
 
 [Params.sidebar]
   home = false   # Configure layout for home page
