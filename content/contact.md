@@ -6,6 +6,7 @@ menu:
     identifier: contact
     name: Contact
     weight: 3
+widgets: ["social", "links"]
 ---
 ![Store Front](/img/store-front.jpg)
 **Store Hours:** (MST)  
