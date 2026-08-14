@@ -10,11 +10,11 @@ img {
     padding: 5px;
 }
 
-.logo__image {
+.logo__img {
     margin-bottom: 0;
 }
 
-.logo__imagebox {
+.logo__item .logo__imagebox {
     margin: 0;
 }
 
