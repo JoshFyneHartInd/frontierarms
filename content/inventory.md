@@ -27,7 +27,6 @@ Our inventory includes:
 * Gun Safes
 * Shooting Accessories
 * Cleaning Supplies
-* Reloading Equipment
 
 ## Brands We Carry
 We proudly carry products from many of the industry's most trusted manufacturers, including Glock, Sig Sauer, Smith & Wesson, Ruger, Springfield Armory, Henry, Marlin, Browning, Colt, CZ, Savage, Weatherby, Howa, Remington, Taurus, Walther, Bushmaster, Century Arms, Leupold, RCBS, Dillon Precision, Federal Ammunition, and many more.
