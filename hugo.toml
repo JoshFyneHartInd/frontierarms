@@ -36,12 +36,12 @@ theme = 'roadster'
 [Params.widget.links]
   title = "Quick Links"
   [[Params.widget.links.links]]
-    name = "NRA"
-    url = "https://home.nra.org"
-    external = true
-  [[Params.widget.links.links]]
     name = "Otto Road Shooting Range"
     url = "http://www.ottoroadshootingrange.com"
+    external = true
+  [[Params.widget.links.links]]
+    name = "Laramie County Shooting Sports Complex"
+    url = "https://www.laramiecountywy.gov/County-Government/County-Departments/Shooting-Sports-Complex"
     external = true
   [[Params.widget.links.links]]
     name = "Well Armed Women"
@@ -50,6 +50,10 @@ theme = 'roadster'
   [[Params.widget.links.links]]
     name = "Wyoming Game & Fish"
     url = "https://wgfd.wyo.gov"
+    external = true
+  [[Params.widget.links.links]]
+    name = "NRA"
+    url = "https://home.nra.org"
     external = true
   [[Params.widget.links.links]]
     name = "ATF eForms"
