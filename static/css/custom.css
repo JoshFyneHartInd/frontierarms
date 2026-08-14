@@ -27,7 +27,7 @@ img {
 
 .widget-contact__meta {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .widget-contact__section--phone {
