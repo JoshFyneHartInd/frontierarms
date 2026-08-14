@@ -7,7 +7,8 @@ menu:
     name: Contact
     weight: 3
 sidebar: "right"
-image: /img/store-front.jpg
+params:
+  image: /img/store-front.jpg
 ---
 ![Store Front](/img/store-front.jpg)
 **Store Hours:** (MST)  
