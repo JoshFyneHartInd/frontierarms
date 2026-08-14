@@ -1,0 +1,8 @@
+{{- $src := .Get "src" -}}
+{{- if not $src -}}
+  {{- errorf "googlemap shortcode requires a 'src' parameter (%s)" .Position -}}
+{{- end -}}
+{{- $width := .Get "width" | default "600" -}}
+{{- $height := .Get "height" | default "450" -}}
+{{- $title := .Get "title" | default "Google Map" -}}
+<iframe src="{{ $src | safeURL }}" width="{{ $width }}" height="{{ $height }}" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="{{ $title }}"></iframe>
