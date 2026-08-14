@@ -1,0 +1,13 @@
+{{- $links := .Site.Params.widget.links }}
+{{- if and $links (gt (len $links.links) 0) }}
+<div class="widget-links widget">
+	<h4 class="widget__title">{{ $links.title | default "Links" }}</h4>
+	<ul class="widget__list">
+		{{- range $links.links }}
+		<li class="widget__item">
+			<a class="widget__link" href="{{ .url }}"{{ if .external }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .name }}</a>
+		</li>
+		{{- end }}
+	</ul>
+</div>
+{{- end }}

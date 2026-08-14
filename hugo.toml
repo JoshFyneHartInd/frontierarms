@@ -22,10 +22,37 @@ theme = 'roadster'
   home = false   # Configure layout for home page
   list = false   # Configure layout for list pages
   single = false # Configure layout for single pages
-  widgets = ["social"]
+  widgets = ["social", "links"]
 
 [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
   facebook = "frontierarmswy"
   #email = "info@frontierarmswy.com"
+
+[Params.widget.links]
+  title = "Quick Links"
+  [[Params.widget.links.links]]
+    name = "NRA"
+    url = "https://home.nra.org"
+    external = true
+  [[Params.widget.links.links]]
+    name = "Otto Road Shooting Range"
+    url = "http://www.ottoroadshootingrange.com"
+    external = true
+  [[Params.widget.links.links]]
+    name = "Well Armed Women"
+    url = "https://thewellarmedwoman.com/"
+    external = true
+  [[Params.widget.links.links]]
+    name = "Wyoming Game & Fish"
+    url = "https://wgfd.wyo.gov"
+    external = true
+  [[Params.widget.links.links]]
+    name = "ATF eForms"
+    url = "https://eforms.atf.gov"
+    external = true
+  [[Params.widget.links.links]]
+    name = "NSSF"
+    url = "https://www.nssf.org"
+    external = true
