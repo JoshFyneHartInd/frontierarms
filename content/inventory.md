@@ -29,6 +29,6 @@ Our inventory includes:
 * Cleaning Supplies
 
 ## Brands We Carry
-We proudly carry products from many of the industry's most trusted manufacturers, including Glock, Sig Sauer, Smith & Wesson, Ruger, Springfield Armory, Henry, Marlin, Browning, Colt, CZ, Savage, Weatherby, Howa, Remington, Taurus, Walther, Bushmaster, Century Arms, Leupold, RCBS, Dillon Precision, Federal Ammunition, and many more.
+We proudly carry products from many of the industry's most trusted manufacturers, including Glock, Sig Sauer, Smith & Wesson, Ruger, Springfield Armory, Henry, Marlin, Browning, Colt, CZ, Savage, Weatherby, Howa, Remington, Taurus, Walther, Bushmaster, Century Arms, Leupold, Federal Ammunition, and many more.
 
 Because our inventory changes regularly, not every brand or model is always in stock. If you're searching for something specific, our knowledgeable staff will be happy to check availability or place a special order whenever possible.
