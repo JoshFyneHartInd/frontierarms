@@ -22,13 +22,16 @@ theme = 'roadster'
   home = "right"   # Configure layout for home page
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
-  widgets = ["social", "links"]
+  widgets = ["contact", "social", "links"]
 
 [Params.widgets.social]
   cached = false # activate cache if true
   # Enable parts of social widget
   facebook = "frontierarmswy"
   #email = "info@frontierarmswy.com"
+
+[Params.widgets.links]
+  cached = false # activate cache if true
 
 [Params.widget.links]
   title = "Quick Links"
@@ -56,3 +59,19 @@ theme = 'roadster'
     name = "NSSF"
     url = "https://www.nssf.org"
     external = true
+
+[Params.widget.contact]
+  cached = false # activate cache if true
+  title = "Contact"
+  phone_display = "(307) 433-0807"
+  phone_href = "3074330807"
+  email = "info@frontierarmswy.com"
+  address_line1 = "611 E Lincolnway"
+  address_city_state_zip = "Cheyenne, WY 82001"
+  address_url = "https://maps.google.com/?q=611+E+Lincolnway,+Cheyenne,+WY+82001"
+  [[Params.widget.contact.hours]]
+    label = "Mon - Fri"
+    value = "10:00am - 6:00pm"
+  [[Params.widget.contact.hours]]
+    label = "Sat"
+    value = "10:00am - 5:00pm"

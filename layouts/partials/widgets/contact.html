@@ -1,0 +1,47 @@
+{{- $contact := .Site.Params.widget.contact }}
+{{- if $contact }}
+<div class="widget-contact widget">
+	<h4 class="widget__title">{{ $contact.title | default "Contact" }}</h4>
+	<div class="widget__content">
+		{{- if and $contact.hours (gt (len $contact.hours) 0) }}
+		<div class="widget-contact__section">
+			<strong>Store Hours</strong>
+			<ul class="widget__list">
+				{{- range $contact.hours }}
+				<li class="widget__item">{{ .label }}: {{ .value }}</li>
+				{{- end }}
+			</ul>
+		</div>
+		{{- end }}
+
+		{{- with $contact.phone_display }}
+		<div class="widget-contact__section">
+			<strong>Phone</strong><br>
+			{{- with $contact.phone_href }}
+			<a class="widget__link" href="tel:{{ . }}">{{ $contact.phone_display }}</a>
+			{{- else }}
+			<span>{{ $contact.phone_display }}</span>
+			{{- end }}
+		</div>
+		{{- end }}
+
+		{{- with $contact.email }}
+		<div class="widget-contact__section">
+			<strong>Email</strong><br>
+			<a class="widget__link" href="mailto:{{ . }}">{{ . }}</a>
+		</div>
+		{{- end }}
+
+		{{- if or $contact.address_line1 $contact.address_line2 $contact.address_city_state_zip }}
+		<div class="widget-contact__section">
+			<strong>Address</strong><br>
+			{{- if $contact.address_url }}<a class="widget__link" href="{{ $contact.address_url }}" target="_blank" rel="noopener noreferrer">{{ end -}}
+			{{- with $contact.address_line1 }}{{ . }}<br>{{ end -}}
+			{{- with $contact.address_line2 }}{{ . }}<br>{{ end -}}
+			{{- with $contact.address_city_state_zip }}{{ . }}{{ end -}}
+			{{- if $contact.address_url }}</a>{{ end -}}
+		</div>
+		{{- end }}
+	</div>
+</div>
+{{- end }}
