@@ -6,8 +6,8 @@
     padding: 5px;
 }
 
-.img {
-    margin-bottom: 1rem;
+img {
+    margin-bottom: 1 em;
 }
 
 .widget-contact .widget__content {
