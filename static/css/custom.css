@@ -17,7 +17,6 @@
 
 .widget-contact__section strong {
   display: inline-block;
-  margin-bottom: 0.2rem;
 }
 
 .widget-contact__hours-list {
@@ -26,13 +25,9 @@
   list-style: none;
 }
 
-.widget-contact__hours-item + .widget-contact__hours-item {
-  margin-top: 0.35rem;
-}
-
 .widget-contact__meta {
   display: grid;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .widget-contact__section--phone {
@@ -47,6 +42,6 @@
   .widget-contact__meta {
     grid-template-columns: max-content minmax(0, 1fr);
     align-items: start;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
