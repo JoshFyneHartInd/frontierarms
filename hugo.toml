@@ -1,4 +1,4 @@
-baseURL = 'frontierarmswy.com'
+baseURL = 'https://frontierarmswy.com/'
 languageCode = 'en-us'
 title = 'Frontier Arms & Supply | Gun Store in Cheyenne, WY'
 theme = 'roadster'
