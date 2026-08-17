@@ -7,6 +7,8 @@ menu:
     name: Contact
     weight: 3
 widgets: ["social", "links"]
+images:
+  - /img/store-front-new.webp
 ---
 ![Store Front](/img/store-front-new.webp)
 **Store Hours:** (MST)  

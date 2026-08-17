@@ -6,6 +6,8 @@ menu:
     identifier: home
     name: Home
     weight: 1
+images:
+  - /img/store-front-new.webp
 ---
 # Cheyenne's Trusted Gun Store Since 2000
 ![Staff Greeting](/img/home-v2.webp)

@@ -6,6 +6,8 @@ menu:
     identifier: inventory
     name: Inventory
     weight: 2
+images:
+  - /img/inventory-v2.webp
 ---
 ## New & Used Firearms, Ammunition & Accessories
 ![Firearm Inventory](/img/inventory-v2.webp)
