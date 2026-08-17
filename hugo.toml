@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'Frontier Arms & Supply | Gun Store in Cheyenne, WY'
 theme = 'roadster'
 
+[services.googleAnalytics]
+  ID = "G-1PJRDY5N77"
+
 [Params]
   copyright = "Frontier Arms & Supply"
   description = "Frontier Arms & Supply is a family-owned gun store and federally licensed firearms dealer serving Cheyenne, Wyoming since 2000. We offer new and used firearms, ammunition, optics, safes, magazines, accessories, and buy, sell, trade, and special-order firearms with knowledgeable, friendly service."
