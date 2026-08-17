@@ -12,6 +12,7 @@ widgets: ["social", "links"]
 **Store Hours:** (MST)  
 Mon - Fri: 10:00am - 6:00pm  
 Sat: 10:00am - 5:00pm
+Sun: Closed
 
 **Phone:** [(307) 433-0807](tel:3074330807)  
 **Fax:** (307) 433-0808  
