@@ -8,7 +8,7 @@ menu:
     weight: 3
 widgets: ["social", "links"]
 ---
-![Store Front](/img/store-front-new.jpg)
+![Store Front](/img/store-front-new.webp)
 **Store Hours:** (MST)  
 Mon - Fri: 10:00am - 6:00pm  
 Sat: 10:00am - 5:00pm
